@@ -1,0 +1,399 @@
+  #HM{
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    background-color: white;
+    top: 0%;
+  }
+  .jm{
+    display: inline-flex;
+  }
+  .UN{
+    text-align: center;
+    height: 50px;
+    width: 100%;
+    font-size: 24px;
+    position: relative;
+    font-family: 'Times New Roman', Times, serif;
+    z-index: 100%;
+    margin-left: 95px;
+    }
+  .pg{
+   float: left;
+   margin-top: 20px;
+  }
+  .me{
+    margin-top: 20px;
+    margin-left: 30px;
+  }
+  .LI a{
+    text-decoration: none;
+    color: black;
+    }
+  a:hover{
+    color: rgb(155, 134, 16);
+  }
+  ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+  }
+  li{
+    margin: 15px;
+  }
+  .dropdown:hover .dropdown-content{
+    display: block;
+  }
+  .dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 120px;
+    z-index: 1;
+  }
+  .dropdown-content li {
+    border-bottom: 1px solid #ddd; 
+  }
+  
+  .dropdown-content a {
+    color: #333;
+    padding: 8px 12px;
+    display: block;
+    text-decoration: none;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #f2f2f2;
+  }
+  .search-container button {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f2f2f2;
+    border: none;
+    cursor: pointer;
+  }
+  .search-container button i {
+    color: #555;}
+  body{
+    max-width: 1170px;
+    margin: auto;
+  }
+  video{
+    margin-top: 30px;
+  }
+  .vid{
+    position: relative;
+  }
+  .OL{
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  }
+  .h1{
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  .DS{
+    border: 12px;
+    border-color: #333;
+    display: inline-flex;
+    margin-top: 40px;
+    margin-left: 50px;
+  }
+  .DS a{
+    text-decoration: none;
+  }
+  .sc{
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    width: 250px;
+    height: 90px;
+    background-color: rgb(112 112 112 / 28%);
+    align-items: center;
+    display: flex;
+    color: black;
+    border-radius: 20px;
+    transition: 0.3s;
+    display: flex;
+  }
+  .sc:hover{
+    background-color: #BD9C6C;
+    color: white;
+  }
+  .s-c{
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    width: 250px;
+    height: 200px;
+    background-color: white;
+    align-items: center;
+    display: block;
+    color: black;
+    transition: 0.3s;
+    margin-top: 15px;
+
+  }
+  .s-c p:hover {
+    color: red;
+  }
+  .UnderGrad-container{
+    margin-left: 30px;
+  }
+  .Undergraduate{
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    width: 250px;
+    height: 90px;
+    background-color: rgb(112 112 112 / 28%);
+    align-items: center;
+    display: flex;
+    color: black;
+    border-radius: 20px;
+    transition: 0.3s;
+    display: flex;
+  }
+  .Undergraduate:hover{
+    background-color: #BD9C6C;
+    color: white;
+  }
+  .Under-G{
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    width: 250px;
+    height: 200px;
+    background-color: white;
+    align-items: center;
+    display: block;
+    color: black;
+    transition: 0.3s;
+    margin-top: 15px;
+  }
+  .Under-G p:hover{
+    color: red;
+  }
+  .MP-container{
+    margin-left: 30px;
+  }
+  .MP{
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    width: 250px;
+    height: 90px;
+    background-color: rgb(112 112 112 / 28%);
+    align-items: center;
+    display: flex;
+    color: black;
+    border-radius: 20px;
+    transition: 0.3s;
+    display: flex;
+  }
+  .MP:hover{
+    background-color: #BD9C6C;
+    color: white;
+  }
+  .M-P{
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    width: 250px;
+    height: 200px;
+    background-color: white;
+    align-items: center;
+    display: block;
+    color: black;
+    transition: 0.3s;
+    margin-top: 15px;
+  }
+  .M-P p:hover{
+    color: red;
+  }
+  .PHD-container{
+    margin-left: 30px;
+  }
+  .PHD{
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    width: 250px;
+    height: 90px;
+    background-color: rgb(112 112 112 / 28%);
+    align-items: center;
+    display: flex;
+    color: black;
+    border-radius: 20px;
+    transition: 0.3s;
+  }
+  .PHD:hover{
+    background-color: #BD9C6C;
+    color: #f9f9f9;
+  }
+  .PH-D{
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    width: 250px;
+    height: 200px;
+    background-color: white;
+    align-items: center;
+    display: block;
+    color: black;
+    transition: 0.3s;
+    margin-top: 15px;
+  }
+  .PH-D p:hover{
+    color: red;
+  }
+  .CNN{
+    display: inline-flex;
+    margin-top: 50px;
+    height: 350px;
+  }
+  .MS{
+    height: 450px;
+    width: 400px;
+    margin-left: 150px;
+    
+  }
+  .EX{
+    height: 450px;
+    width: 400px;
+    margin-left: 60px;
+    text-indent: justify;
+    font-size: medium;
+  }
+  .DP{
+    font-size: 36px;
+  }
+  .Ps{
+    font-size: 20px;
+  }
+  .view a{
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+  }
+  .view p{transition: 0.3s;}
+  .view a:hover{
+    color: #BD9C6C;
+  }
+  .GK{
+    width: 100%;
+    color: rgb(3, 3, 65);
+    font-size: 40px;
+    justify-content: center;
+    text-align: center;
+  }
+  .J-M{
+    text-align: center;
+  }
+  .JK{
+    text-align: center;
+    font-style: italic;
+  }
+  .BA{
+    height: 400px;
+    background-image: url(pictures/programming.png.webp);
+    position: relative;
+    text-align: center;
+    color: white;
+    font-size: 36px; 
+  }
+  .NXT{
+    font-size: 16px;
+  }
+  .fm{
+    display: inline-flex;
+  }
+  .man{
+    text-align: center;
+    font-size: 26px;
+    color: white;
+  }
+  .man1{
+    text-align: center;
+    font-size: 16px;
+    color: white;
+  }
+  .wm{
+    font-size: 16px;
+    padding: 10px 20px;
+    display: inline-block;
+    margin-left: 10px;
+    border-radius: 15px;
+    text-decoration: none;
+    background-color: rgb(31, 142, 211);
+    color: white;
+  }
+  .BA{
+    display: flex;
+    flex-direction: column;
+  }
+  .ASS{
+    height: 50px;
+  }
+  .Ben{
+    display: flex;
+    gap: 15px;
+  }
+  .CCNA-1{
+    width: 280px;
+    display: flex;
+    flex-direction: column; 
+    margin-top: 10px;  
+  }
+  .CCNA{
+  width: 280px;  
+  background-color: rgb(26, 45, 74);
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  }
+  .CCNA a{
+    text-decoration: none;
+  }
+  .NA{
+    font-size: 26px;
+    color: white;
+    transition: 0.3s;
+  }
+  .NA:hover{
+    background-color: rgb(8, 85, 133);
+  }
+  .CC{
+    font-size: 16px;
+    color: white;
+  }
+  .footer{
+    background-color: #333333;
+  filter: grayscale(100%);
+  display:flex;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 20%;
+  list-style-type:none;  
+  }
+  .footer a{
+    text-decoration: none;
+    color: white;
+    list-style-type:none;
+    display: list-item;
+    padding: 10px;
+
+  }
+  .footer ul{
+    text-decoration: none;
+    color: white;
+    list-style-type:none;
+  }
+  .footer a:hover{
+    color:blue;
+    background-color:#fff;
+  }
