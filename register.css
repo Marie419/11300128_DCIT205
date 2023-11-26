@@ -1,0 +1,67 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(240, 233, 248);
+}
+.tt{
+  width: 570px;
+  height: 260px;
+  text-align: left;
+  padding: 20px;
+  background-image: linear-gradient(rgb(103, 58, 183), rgb(103, 58, 183) 5%, transparent 0%, transparent);
+  margin-top: 15px;
+  border-radius: 10px;
+  overflow: auto;
+  box-sizing: border-box;
+  background-color: white;
+}
+.tt a{
+  text-decoration: none;
+}
+.surname{
+  width: 570px;
+  text-align: left;
+  padding: 20px;
+  margin-top: 15px;
+  border-radius: 10px;
+  background-color: white;
+  box-sizing: border-box;
+}
+input[type=text] {
+  width: 250px;
+  padding: 15px;
+  margin: 15px 0 10px 0;
+  display: inline-block;
+  border: none;
+}
+input[type=date] {
+   width: 120px;
+  padding: 15px;
+  margin: 15px 0 10px 0;
+  display: inline-block;
+  border: none;
+}
+input[type="radio"],[type="checkbox"] {
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+.hover-effect:hover{
+  background-color: #f0f0f0;
+}
+.hover-effect [type="radio"],[type="checkbox"]{
+  background-color: rgb(103, 58, 183);
+}
+.end{
+  display: flex;
+  align-items: last baseline;
+}
+.end p{
+  margin-left: 400px;
+}
+button{
+  background-color: rgb(103, 58, 183);
+  color: white;
+}
+
