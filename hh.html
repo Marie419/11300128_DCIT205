@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Dropdown List</title>
+  <style>
+    /* Style for the dropdown container */
+    .dropdown {
+      position: relative;
+      display: inline-block;
+    }
+
+    /* Hide the actual select element */
+    .dropdown select {
+      display: none;
+    }
+
+    /* Style for the clickable text */
+    .dropdown .dropdown-text {
+      padding: 10px;
+      border: 1px solid #ccc;
+      cursor: pointer;
+    }
+
+    /* Style for the dropdown list */
+    .dropdown .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      min-width: 150px;
+      border: 1px solid #ccc;
+      z-index: 1;
+    }
+
+    /* Show the dropdown list when the dropdown is active */
+    .dropdown.active .dropdown-content {
+      display: block;
+    }
+  </style>
+</head>
+<body>
+
+<div class="dropdown">
+  <div class="dropdown-text" onclick="toggleDropdown()">Click to select an option</div>
+  <div class="dropdown-content" id="myDropdown">
+    <select onchange="selectOption(this.value)">
+      <option value="">Select an option</option>
+      <option value="option1">Option 1</option>
+      <option value="option2">Option 2</option>
+      <option value="option3">Option 3</option>
+    </select>
+  </div>
+</div>
+
+<script>
+  function toggleDropdown() {
+    var dropdown = document.getElementById("myDropdown");
+    dropdown.classList.toggle("active");
+  }
+
+  function selectOption(value) {
+    // You can handle the selected option here
+    console.log("Selected Option: " + value);
+  }
+</script>
+
+</body>
+</html>
