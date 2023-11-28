@@ -26,8 +26,6 @@ There are several reasons to join the University of Ghana Computer Science Depar
 
 ## Lessons Learned
 
-Paraphrased and summarized version:
-
 My project experience taught me two valuable lessons: the significance of hard work and resilience. Despite facing challenges, I persevered and achieved my goals. Academically, I gained practical knowledge about HTML tags like divs and img, along with their attributes and elements. This understanding helped me improve the visual and structural aspects of my web pages. Additionally, I learned to navigate CSS styling, initially finding it challenging but eventually mastering it to have greater control over the presentation of my web pages. Overall, my project experience emphasized the importance of hard work and resilience, while also equipping me with practical skills in HTML and CSS. And may the almighty God touch Daquiver's to give me a well deserved mark
 
 ## Contact Us
